@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.container{/*CONTAINER PADRE*/
+    background-color: red;
+    width: 100%;
+}
+.nav{/*CONTAINER PADRE*/
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+.nav a{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffc23f;
+    font-weight: 800;
+    font-size: 30px;
+}
+.buttons{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.buttons span:hover{
+    cursor: pointer;
+}
+.search{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.search input{
+    border: none;
+    width: 70%;
+    height: 30px;
+    border-radius: 15px;
+}
+.cart{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.cart span{
+    font-weight: 800;
+}
+.maincontent{/*CONTAINER PADRE*/
+    background-color: royalblue;
+    width: 100%;
+    display: flex;
+}
+.content{/*CONTAINER PADRE*/
+    background-color: saddlebrown;
+    width: 78%;
+    height: 1500px;
+}
+.pageubication{
+    width: 100%;
+    display: flex;
+}
+.pageubication h3{
+    color: #bfbdbb;    
+    font-size: 14px;
+    font-weight: 100;
+}
+.pageubication span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.product{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.product img{
+    width: 40%;
+}
+.productdescription{
+    width: 100%;
+}
+.productdescription span{
+    color: #bfbdbb;
+    font-size: 13px;
+    font-weight: 600;
+}
+.productdescription h1{
+    margin-bottom: 20px;
+}
+.productdescription p{
+    color: #bfbdbb;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.productdescription p a{
+    text-decoration: underline;
+    color: #bfbdbb;
+}
+.producticons{
+    background-color: mediumorchid;
+}
+.measures{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #f1f1f1;
+}
+.measures span{
+    color: black;
+}
+.price{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.price span{
+    font-size: 40px;
+    font-weight: 800;
+}
+.price button{
+    background-color: #ffc23f;
+    width: 12%;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    margin-left: 3%;
+}
+.price button:hover{
+    cursor: pointer;
+}
+.allproducts{
+    background-image: url(img/showcase.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+}
+.card{
+    background-color: white;
+    width: 25%;
+    height: 250px;
+    position: relative;
+    top: 20px;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card h3{
+    font-size: 13px;
+    color: #bfbdbb;
+}
+.card span{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+.card button{
+    background-color: #ffc23f;
+    width: 60%;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.previews{
+    background-color: violet;
+    width: 50%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 280px;
+    left: 2%;
+}
+.preview1{
+    width: 33.33%;
+    background-image: url(img/preview1.jpeg);
+    background-size: cover;
+}
+.preview2{
+    width: 33.33%;
+    background-image: url(img/preview2.jpeg);
+    background-size: cover;
+}
+.preview3{
+    width: 33.33%;
+    background-image: url(img/preview3.jpeg);
+    background-size: cover;
+}
+.details{
+    background-color: tomato;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 80px;
+}
+.detail{
+    background-color: teal;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detail h3{
+    font-size: 25px;
+}
+.user{/*CONTAINER PADRE*/
+    background-color: salmon;
+    width: 22%;
+    height: 900px;
+}
+.name img{
+    width: 13%;
+}
+.name h2{
+    font-size: 20px;
+}
+.proposals{
+    margin-top: 10px;
+}
+.proposals h3{
+    font-size: 14px;
+    color: #bfbdbb;
+    margin-bottom: 10px;
+}
+.stockholm{
+    background-color: chartreuse;
+    width: 95%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #f1f1f1;
+    border-right: 3px solid #ffc23f;
+    border-bottom: 1px solid #f1f1f1;
+}
+.reactive{
+    background-color: chocolate;
+    width: 95%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.choices{
+    margin-top: 30px;
+}
+.choices h3{
+    font-size: 14px;
+    color: #bfbdbb;
+    margin-bottom: 10px;
+}
+.message{
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.choices button{
+    width: 18%;
+    height: 50px;
+    border: none;
+    background-color: #ffc23f;
+    border-radius: 50px;
+}
+.choice{
+    background-color: cornflowerblue;
+    width: 95%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.youmight{/*CONTAINER PADRE*/
+    background-color: sandybrown;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.title h2{
+    font-size: 35px;
+}
+.title span{
+    color: #bfbdbb;
+    font-size: 13px;
+}
+.similar{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.similar img{
+    width: 70%;
+}
+.similar h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.similar span{
+    font-size: 12px;
+    font-weight: 500;
+    color: #bfbdbb;
+}
+.similar h4{
+    font-size: 23px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.similar button{
+    background-color: #ffc23f;
+    width: 45%;
+    height: 45px;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    margin-right: 5%;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+}
+.fromour{/*CONTAINER PADRE*/
+    background-color: seagreen;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.hashtags{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hashtags h2{
+    font-size: 35px;
+}
+.hashtags span{
+    color: #bfbdbb;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 85px;
+}
+.hashtags a{
+    text-decoration: underline;
+    color: black;
+}
+.media{
+    background-color: blue;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.media1{
+    background-image: url(img/gallery1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    width: 70%;
+}
+.media2{
+    background-color: brown;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    background-image: url(img/gallery2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+.img2{
+    background-image: url(img/gallery3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+
+}
+.footer{/*CONTAINER PADRE*/
+    background-color: sienna;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    color: #ffc23f;
+    font-weight: 800;
+    font-size: 30px;
+}
+.shortcuts{
+    background-color: indianred;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.legend{
+    margin-bottom: 20px;
+}
+.legend h3{
+    color: #bfbdbb;
+    font-size: 15px;
+    font-weight: 500;
+}
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.services span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.sevices span:hover{
+    cursor: pointer;
+}
+.up a{
+    text-decoration: underline;
+    color: #bfbdbb;
+}
