@@ -7,7 +7,6 @@ body{
     font-family: "Roboto", sans-serif;
 }
 .container{/*CONTAINER PADRE*/
-    background-color: red;
     width: 100%;
 }
 .nav{/*CONTAINER PADRE*/
@@ -17,14 +16,9 @@ body{
     align-items: center;
     border-bottom: 1px solid #f1f1f1;
 }
-.nav a{
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: #ffc23f;
-    font-weight: 800;
-    font-size: 30px;
+.nav img{
+    width: 6%;
+    margin-left: 3%;
 }
 .buttons{
     width: 50%;
@@ -39,9 +33,10 @@ body{
     cursor: pointer;
 }
 .search{
-    width: 20%;
+    width: 30%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .search input{
     border: none;
@@ -50,22 +45,22 @@ body{
     border-radius: 15px;
 }
 .cart{
-    width: 10%;
+    width: 8%;
     display: flex;
     justify-content: space-around;
 }
 .cart span{
     font-weight: 800;
+    margin-left: 10%;
 }
 .maincontent{/*CONTAINER PADRE*/
-    background-color: royalblue;
     width: 100%;
     display: flex;
 }
 .content{/*CONTAINER PADRE*/
-    background-color: saddlebrown;
     width: 78%;
     height: 1500px;
+    padding: 15px 0 0 25px;
 }
 .pageubication{
     width: 100%;
@@ -109,7 +104,14 @@ body{
     color: #bfbdbb;
 }
 .producticons{
-    background-color: mediumorchid;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.producticons i{
+    margin-bottom: 10px;
 }
 .measures{
     width: 50%;
@@ -123,7 +125,6 @@ body{
     color: black;
 }
 .price{
-    background-color: brown;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,13 +136,21 @@ body{
 }
 .price button{
     background-color: #ffc23f;
-    width: 12%;
+    width: 15%;
     height: 40px;
     font-size: 12px;
     font-weight: 600;
     border: none;
     border-radius: 20px;
     margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price button i{
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 10%;
 }
 .price button:hover{
     cursor: pointer;
@@ -183,6 +192,17 @@ body{
     border: none;
     border-radius: 20px;
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card button i{
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 10%;
+}
+.card button:hover{
+    cursor: pointer;
 }
 .previews{
     background-color: violet;
@@ -210,27 +230,37 @@ body{
     background-size: cover;
 }
 .details{
-    background-color: tomato;
     width: 100%;
     height: 400px;
     display: flex;
     margin-top: 80px;
 }
 .detail{
-    background-color: teal;
     width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .detail h3{
     font-size: 25px;
+    height: 90px;
+}
+.detail i{
+    margin-bottom: 25px;
+}
+.arrow i{
+    border: 1px solid #939495;
+    border-radius: 50px;
+    padding: 10px;
+}
+.arrow:hover{
+    cursor: pointer;
 }
 .user{/*CONTAINER PADRE*/
-    background-color: salmon;
     width: 22%;
     height: 900px;
+    padding: 90px 0 0 30px;
+    border-left: 1px solid #f1f1f1;
 }
 .name img{
     width: 13%;
@@ -247,25 +277,33 @@ body{
     margin-bottom: 10px;
 }
 .stockholm{
-    background-color: chartreuse;
-    width: 95%;
+    width: 75%;
     height: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     border-top: 1px solid #f1f1f1;
     border-right: 3px solid #ffc23f;
     border-bottom: 1px solid #f1f1f1;
+    padding-left: 20px;
+}
+.stockholm span{
+    font-weight: 600;
+    margin-left: 10%;
 }
 .reactive{
-    background-color: chocolate;
-    width: 95%;
+    width: 75%;
     height: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    padding-left: 20px;
+}
+.reactive span{
+    font-weight: 600;
+    margin-left: 10%;
 }
 .choices{
     margin-top: 30px;
@@ -287,22 +325,37 @@ body{
     border: none;
     background-color: #ffc23f;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choices button:hover{
+    cursor: pointer;
 }
 .choice{
-    background-color: cornflowerblue;
-    width: 95%;
+    width: 75%;
     height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+.choice span{
+    font-size: 14px;
+    font-weight: 600;
 }
 .youmight{/*CONTAINER PADRE*/
-    background-color: sandybrown;
+    background-color: #fafafa;
     width: 100%;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 40px;
 }
 .title{
     width: 25%;
@@ -318,10 +371,24 @@ body{
     color: #bfbdbb;
     font-size: 13px;
 }
+.arrows{
+    margin-top: 35px;
+}
+.arrows i{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+}
+.arrows i:hover{
+    cursor: pointer;
+}
 .similar{
+    background-color: white;
     width: 25%;
     display: flex;
     flex-direction: column;
+    border-right: 1px solid #f1f1f1;
+    padding-left: 20px;
 }
 .similar img{
     width: 70%;
@@ -342,24 +409,36 @@ body{
 }
 .similar button{
     background-color: #ffc23f;
-    width: 45%;
-    height: 45px;
+    width: 55%;
+    height: 40px;
     font-size: 12px;
     font-weight: 600;
     border: none;
     border-radius: 20px;
-    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.similar button i{
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 10%;
+}
+.similar button:hover{
+    cursor: pointer;
 }
 .end{
     display: flex;
     justify-content: flex-end;
+    padding-right: 20px;
 }
 .fromour{/*CONTAINER PADRE*/
-    background-color: seagreen;
     width: 100%;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: row;
+    padding: 40px 100px 40px 20px;
 }
 .hashtags{
     width: 20%;
@@ -392,6 +471,7 @@ body{
     background-repeat: no-repeat;
     background-position-y: 80%;
     width: 70%;
+    border-right: 2px solid white;
 }
 .media2{
     background-color: brown;
@@ -405,6 +485,7 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
+    border-bottom: 2px solid white;
 }
 .img2{
     background-image: url(img/gallery3.jpg);
@@ -412,24 +493,20 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
-
 }
 .footer{/*CONTAINER PADRE*/
-    background-color: sienna;
     width: 100%;
     height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 100px 0 20px;
+    border-top: 1px solid #f1f1f1;
 }
-.logo a{
-    text-decoration: none;
-    color: #ffc23f;
-    font-weight: 800;
-    font-size: 30px;
+.footer img{
+    width: 6%;
 }
 .shortcuts{
-    background-color: indianred;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -453,11 +530,45 @@ body{
 .services span{
     font-size: 14px;
     font-weight: 600;
+    margin-top: 15px;
+}
+.services span:hover{
+    cursor: pointer;
 }
 .sevices span:hover{
     cursor: pointer;
 }
+.up{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .up a{
     text-decoration: underline;
-    color: #bfbdbb;
+    color: black;
+}
+.icons{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.md-inactive{ 
+    color: rgba(0, 0, 0, 0.26); 
+}
+.md_gray{
+    color: #ababaa;
+}
+.md-grey{
+    color: #939495;
+}
+.md-18{
+    font-size: 18px;
+}
+.md-56{
+    font-size: 56px;
 }
