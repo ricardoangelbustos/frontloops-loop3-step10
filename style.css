@@ -6,10 +6,10 @@
 body{
     font-family: "Roboto", sans-serif;
 }
-.container{/*CONTAINER PADRE*/
+.container{
     width: 100%;
 }
-.nav{/*CONTAINER PADRE*/
+.nav{
     width: 100%;
     height: 60px;
     display: flex;
@@ -28,6 +28,12 @@ body{
 .buttons span{
     font-size: 14px;
     font-weight: 600;
+}
+.buttons a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
 }
 .buttons span:hover{
     cursor: pointer;
@@ -53,11 +59,11 @@ body{
     font-weight: 800;
     margin-left: 10%;
 }
-.maincontent{/*CONTAINER PADRE*/
+.maincontent{
     width: 100%;
     display: flex;
 }
-.content{/*CONTAINER PADRE*/
+.content{
     width: 78%;
     height: 1500px;
     padding: 15px 0 0 25px;
@@ -256,7 +262,7 @@ body{
 .arrow:hover{
     cursor: pointer;
 }
-.user{/*CONTAINER PADRE*/
+.user{
     width: 22%;
     height: 900px;
     padding: 90px 0 0 30px;
@@ -345,7 +351,7 @@ body{
     font-size: 14px;
     font-weight: 600;
 }
-.youmight{/*CONTAINER PADRE*/
+.youmight{
     background-color: #fafafa;
     width: 100%;
     height: 450px;
@@ -433,7 +439,7 @@ body{
     justify-content: flex-end;
     padding-right: 20px;
 }
-.fromour{/*CONTAINER PADRE*/
+.fromour{
     width: 100%;
     height: 450px;
     display: flex;
@@ -494,7 +500,7 @@ body{
     width: 100%;
     height: 200px;
 }
-.footer{/*CONTAINER PADRE*/
+.footer{
     width: 100%;
     height: 200px;
     display: flex;
