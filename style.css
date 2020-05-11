@@ -20,6 +20,9 @@ body{
     width: 6%;
     margin-left: 3%;
 }
+.nav img:hover{
+    cursor: pointer;
+}
 .buttons{
     width: 50%;
     display: flex;
@@ -298,6 +301,9 @@ body{
     font-weight: 600;
     margin-left: 10%;
 }
+.stockholm:hover{
+    cursor: pointer;
+}
 .reactive{
     width: 75%;
     height: 60px;
@@ -310,6 +316,9 @@ body{
 .reactive span{
     font-weight: 600;
     margin-left: 10%;
+}
+.reactive:hover{
+    cursor: pointer;
 }
 .choices{
     margin-top: 30px;
@@ -350,6 +359,9 @@ body{
 .choice span{
     font-size: 14px;
     font-weight: 600;
+}
+.choice i:hover{
+    cursor: pointer;
 }
 .youmight{
     background-color: #fafafa;
@@ -511,6 +523,9 @@ body{
 }
 .footer img{
     width: 6%;
+}
+.footer img:hover{
+    cursor: pointer;
 }
 .shortcuts{
     width: 60%;
